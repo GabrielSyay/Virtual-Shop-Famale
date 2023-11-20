@@ -1,0 +1,232 @@
+
+* {
+   transition: .5s;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #f3f3f3;
+    
+    
+}
+
+.cabec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    flex-wrap: wrap;
+    gap: .2rem;
+
+  
+}
+
+.logo h1 {
+    color: #e95cff;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: .150rem;
+
+}
+
+.navegue ul {
+    display: flex;
+    gap: .250rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navegue ul button {
+    font-size: 1.2rem;
+    padding: .5rem;
+    background: #f1afed;
+    border-radius: .5rem;
+    border: none;
+
+}
+
+.navegue ul button:hover {
+    cursor: pointer;
+    padding: .6rem;
+    font-weight: bold;
+    color: #bd63b7;
+}
+
+.logo img {
+    width: 3rem;
+}
+
+.line {
+    width: 50%;
+    margin: auto;
+    border: #bd63b7 solid .150rem;
+    border-radius: .150rem;
+
+}
+
+.sessão01 .product img {
+    width: 70%;
+    border-radius: .5rem .5rem 0 0;
+
+}
+.sessão01 .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.sessão01 {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(1rem, auto));
+    gap: .5rem;
+
+
+}
+
+.coloritems {
+    display: flex;
+    gap: .050rem;
+    flex-direction: column;
+    background-color: #bd63b7;
+    width: 70%;
+    border-radius: 0 0 .5rem .5rem;
+    align-items: center;
+}
+
+
+.rodape h1 {
+    font-size: 1.5rem;
+    color: #fb7ef3;
+}
+
+.rodape {
+    background-color: #b202d1;
+    background-image: linear-gradient(160deg, #b202d1 0%, #9a008a 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+    position: relative;
+    width: 100%;
+    top: 100%;
+    
+}
+
+
+.bt1 {
+    cursor: pointer;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: .2rem;
+    padding: .2rem;
+    background-color: #f1afed;
+    font-weight: bold;
+}
+
+
+.bt2 {
+    display: flex;
+    align-items: center;
+    border-radius: .2rem;
+    padding: .2rem;
+    border: none;
+    gap: .2rem;
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+
+.bt1:hover {
+    color: #bd63b7;
+    background-color: #1c2330;
+    font-size: 1.5rem;
+}
+
+
+.bt2:hover {
+   color: #bd63b7;
+   font-size: 1rem;
+}
+
+
+.product .bt2 img {
+    width: 2rem;
+}
+
+
+.compra {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+    margin: .5rem;
+}
+
+
+.product hr {
+    width: 70%;
+    border: #9a008a solid .150rem;
+    border-radius: 2rem;
+    margin: .2rem;
+}
+
+.rodape2 {
+    padding: 2rem;
+    background: #1c2330;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: #b202d1 solid 1rem;
+    
+}
+
+.rodape2 .options h1 {
+   color: #bd63b7;
+    border-left: #9a008a solid .2rem;
+}
+
+.rodape2 .options ul {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.rodape2 .options ul li img {
+    width: 1.5rem;
+}
+
+.rodape2 .options ul li {
+    display: flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.rodape2 .options ul li a {
+    color: #9a008a;
+    font-size: 1.3rem;
+}
+
+.rodape2 .options ul li a:hover {
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.rodape2 .options .selo img {
+    width: 10rem;
+}
+
+.rodape2 .space ul {
+    display: flex;
+    gap: 1rem
+}
